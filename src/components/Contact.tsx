@@ -13,7 +13,7 @@ const Contact = () => {
         Get In Touch
       </motion.h1>
       <div className="text-center tracking-tighter">
-        <motion.p
+        {/* <motion.p
           className="my-4"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
@@ -28,7 +28,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
         >
           {CONTACT.phoneNo}
-        </motion.p>
+        </motion.p> */}
         <motion.p
           className="my-4"
           whileInView={{ opacity: 1, x: 0 }}

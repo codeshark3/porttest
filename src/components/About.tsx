@@ -17,7 +17,7 @@ const About = () => {
         >
           <div className="flex items-center justify-center">
             <Image
-              src="/assets/kevinRushProfile.png"
+              src="/assets/about.jpg"
               alt="about"
               width={400}
               height={400}
