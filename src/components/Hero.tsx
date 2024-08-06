@@ -58,10 +58,11 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.2 }}
           >
             <Image
-              src="/assets/kevinRushProfile.png"
+              src="/assets/main1.jpg"
               alt="logo"
               width={400}
               height={400}
+              className="rounded-2xl"
             />
           </motion.div>
         </div>
