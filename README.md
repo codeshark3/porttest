@@ -22,15 +22,15 @@ This is my personal portfolio website designed to highlight my expertise in [men
 
 - **Responsive Design:** Works on all devices, whether desktop or mobile.
 - **Project Showcase:** A detailed view of the projects I have worked on.
-- **Contact Form:** A simple way for visitors to reach out to me.
+- **Contact Information:** A simple way for visitors to reach out to me.
 - **Interactive Elements:** Smooth animations and dynamic content to enhance user experience.
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Frameworks:** [e.g., React, Bootstrap]
-- **Backend:** [If applicable, e.g., Node.js, Express]
-- **Other Tools:** [e.g., Git, Webpack, Babel]
+- **Frontend:** HTML, CSS, TypeScript,
+- **Frameworks:** NextJs, TailwindCSS
+-
+- **Other Tools:** Git,
 
 ## Installation
 
