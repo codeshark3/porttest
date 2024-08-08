@@ -1,29 +1,91 @@
-# Create T3 App
+# Personal Portfolio
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Welcome to my personal portfolio! This repository contains the source code and assets for my portfolio website, showcasing my skills, projects, and professional experience.
 
-## What's next? How do I make an app with this?
+## Table of Contents
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Projects](#projects)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## About
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+This is my personal portfolio website designed to highlight my expertise in [mention your field or skills, e.g., web development, data science, software engineering]. The site includes sections for my bio, skills, projects, and ways to get in touch with me.
 
-## Learn More
+## Features
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- **Responsive Design:** Works on all devices, whether desktop or mobile.
+- **Project Showcase:** A detailed view of the projects I have worked on.
+- **Contact Form:** A simple way for visitors to reach out to me.
+- **Interactive Elements:** Smooth animations and dynamic content to enhance user experience.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Technologies Used
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- **Frontend:** HTML, CSS, JavaScript
+- **Frameworks:** [e.g., React, Bootstrap]
+- **Backend:** [If applicable, e.g., Node.js, Express]
+- **Other Tools:** [e.g., Git, Webpack, Babel]
 
-## How do I deploy this?
+## Installation
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+To run this project locally:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/codeshark3/porttest.git
+   ```
+
+````
+2.Navigate to the project directory:
+```bash
+cd porttest
+````
+
+3. Install the dependencies:
+
+```bash
+pnpm install
+```
+
+4. Start the development server:
+
+```bash
+pnpm dev
+```
+
+## Usage
+
+Visit the deployed version of the site at [https://joels-portfolio-beryl.vercel.app/].
+
+Alternatively, you can open the index.html file in your browser to view the website locally.
+
+To use this project, you can visit the website at [http://localhost:3000](http://localhost:3000).
+
+## Projects
+
+This project is a work in progress, and I am constantly adding new features and improving existing ones.
+
+The projects section includes a variety of work that I have done over the years. Here’s a brief overview of what you’ll find:
+
+[Project 1 Name]: Brief description of what this project is about and what technologies were used.
+[Project 2 Name]: Brief description of what this project is about and what technologies were used.
+[Project 3 Name]: Brief description of what this project is about and what technologies were used.
+Contributing
+If you have suggestions or would like to contribute, feel free to fork the repository and submit a pull request. All contributions are welcome!
+
+License
+This project is licensed under the [Your License Name] - see the LICENSE file for details.
+
+Contact
+If you want to reach out, you can contact me via:
+
+Email: jobaff03@gmail.com
+LinkedIn: [https://www.linkedin.com/in/joel-john-otchere-baffour/]
+Twitter: @yourhandle
+Feel free to connect with me for collaborations or just to say hi!
