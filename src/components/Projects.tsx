@@ -17,7 +17,7 @@ const Projects = () => {
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
-              className="w-full lg:w-1/2"
+              className="w-full lg:w-1/4"
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
