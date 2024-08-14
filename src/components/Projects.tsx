@@ -1,6 +1,7 @@
 "use client";
 import { PROJECTS } from "~/constants";
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 const Projects = () => {
   return (
@@ -46,6 +47,12 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              <Link
+                className="mr-2 mt-4 rounded bg-purple-800 px-2 py-2 text-sm font-medium text-white"
+                href={project.link}
+              >
+                More Details
+              </Link>
             </motion.div>
           </div>
         ))}

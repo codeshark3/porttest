@@ -29,7 +29,7 @@ This is my personal portfolio website designed to highlight my expertise in [men
 
 - **Frontend:** HTML, CSS, TypeScript,
 - **Frameworks:** NextJs, TailwindCSS
--
+
 - **Other Tools:** Git,
 
 ## Installation
