@@ -29,7 +29,6 @@ This is my personal portfolio website designed to highlight my expertise in [men
 
 - **Frontend:** HTML, CSS, TypeScript,
 - **Frameworks:** NextJs, TailwindCSS
-
 - **Other Tools:** Git,
 
 ## Installation
@@ -41,11 +40,11 @@ To run this project locally:
    git clone https://github.com/codeshark3/porttest.git
    ```
 
-````
 2.Navigate to the project directory:
+
 ```bash
 cd porttest
-````
+```
 
 3. Install the dependencies:
 
