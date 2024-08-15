@@ -4,20 +4,11 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-
-  {
     year: "2023 - 2024",
     role: "ALX Data Science Program",
     company: "ALX",
-    description: `Analysed and visualized  realworld data, using Python,SQL and Power BI. Developed machine learning models to predict Movie Recommendations and Trends,.`,
+    description: `Analysed and visualized  real world data, using Python,SQL and Power BI. Developed machine learning models to predict Movie Recommendations and Trends,.`,
     technologies: [
-      "Google Workspace",
       "Power BI",
       "MySql",
       "Python",
@@ -32,35 +23,48 @@ export const EXPERIENCES = [
     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
     technologies: ["React", "Django", "Opencv", "Scikit-Learn", "Numpy"],
   },
-];
-
-export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: "/assets/projects/project-1.jpg",
-    link: "",
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    year: "2018 - Present",
+    role: "Web Developer",
+    company: "Freelance",
+    description: `Developed web applications using JavaScript, React.js, and Node.js. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: [
-      "NextJs",
-      "TailwindCSS",
-      "React",
-      "TypeScript",
+      "Javascript",
+      "React.js",
+      "Next.js",
+      "mongoDB",
       "PostgreSQL",
     ],
   },
-  {
-    title: "Financial Trading App",
-    image: "/assets/projects/project-2.jpg",
-    link: "",
-    description:
-      "A mobile application for finance trading, with features like stock market analysis, portfolio management, and real-time market data.",
-    technologies: ["React Native", "Expo", "TypeScript", "Zustand"],
-  },
+];
+
+export const PROJECTS = [
+  // {
+  //   title: "E-Commerce Website",
+  //   image: "/assets/projects/project-1.jpg",
+  //   link: "",
+  //   description:
+  //     "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+  //   technologies: [
+  //     "NextJs",
+  //     "TailwindCSS",
+  //     "React",
+  //     "TypeScript",
+  //     "PostgreSQL",
+  //   ],
+  // },
+  // {
+  //   title: "Financial Trading App",
+  //   image: "/assets/projects/project-2.jpg",
+  //   link: "",
+  //   description:
+  //     "A mobile application for finance trading, with features like stock market analysis, portfolio management, and real-time market data.",
+  //   technologies: ["React Native", "Expo", "TypeScript", "Zustand"],
+  // },
   {
     title: "Portfolio Website",
     image: "/assets/projects/project-3.jpg",
-    link: "",
+    link: "https://joels-portfolio-beryl.vercel.app",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["NextJs", "TailwindCSS", "Typscript", "Framer Motion"],
@@ -71,6 +75,14 @@ export const PROJECTS = [
     link: "https://github.com/codeshark3/wdbcmlp.git",
     description:
       "A machine learning script to predict breast cancer based on the WDBC dataset",
+    technologies: ["Python", "Scikit-Learn", "Numpy", "Pandas"],
+  },
+  {
+    title: "Tesla Stock Prediction",
+    image: "/assets/projects/project-1.jpg",
+    link: "https://github.com/codeshark3/tesla_stock.git",
+    description:
+      "A random forest model to predict Tesla stock price based on historical S&P500 data scraped from Yahoo Finance",
     technologies: ["Python", "Scikit-Learn", "Numpy", "Pandas"],
   },
 ];
