@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div className="lg:mb-35 border-b border-neutral-900 pb-4">
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2">
+        <div className="w-full pl-8 lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <div className="pb-15 lg:mt-10">
               <motion.h1
@@ -45,7 +45,7 @@ const Hero = () => {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-4 font-light tracking-tighter"
+              className="my-2 max-w-xl py-4 font-light tracking-tighter lg:text-xl"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -97,8 +97,8 @@ const Hero = () => {
             <Image
               src="/assets/main1.jpg"
               alt="logo"
-              width={400}
-              height={400}
+              width={650}
+              height={650}
               className="rounded-2xl"
             />
           </motion.div>
